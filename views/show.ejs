@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>See Post</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="user-post">
+      <h1>See your post</h1>
+      <h4><%= post.username %></h4>
+      <h5>UserId:- <%= post.id %></h5>
+      <img src="<%= post.src %>" alt="<%= post.username %>'s image" />
+      <p><%= post.caption %></p>
+    </div>
+  </body>
+</html>

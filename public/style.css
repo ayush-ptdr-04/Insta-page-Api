@@ -1,0 +1,47 @@
+h1 {
+  color: #c13584;
+}
+
+.user-post {
+  margin-top: 90px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+a {
+  display: inline-block; /* Makes the anchor behave like a button */
+  padding: 8px 16px; /* Adds space inside the button */
+  margin: 5px; /* Adds space between buttons */
+  text-decoration: none; /* Removes the underline from the link */
+  color: white; /* Text color */
+  background-color: #833ab4; /* Button background color (blue in this case) */
+  border-radius: 5px; /* Rounded corners for the button */
+  font-size: 15px; /* Adjusts font size */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+h3,
+h4 {
+  color: #777737;
+}
+
+a:hover {
+  background-color: #e1306c; /* Darker shade on hover */
+}
+p {
+  border: 2px solid brown;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+}
+.dltBtn {
+  margin-left: 50px;
+  border: none;
+  border-radius: 5px;
+  color: #777737;
+  background-color: black;
+}
